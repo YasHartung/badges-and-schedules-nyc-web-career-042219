@@ -9,4 +9,5 @@ def batch_badge_creator (array)
   array_badge[i] =  badge_maker(name)
   i += 1
   end
+  return array_badge
 end

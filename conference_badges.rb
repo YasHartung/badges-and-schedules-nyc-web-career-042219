@@ -17,4 +17,7 @@ def assign_rooms (array)
   i = 0
   array.each do |name|
     array_rooms[i] = "Hello, #{name}! You'll be assigned to room #{index + 1}"
+    i += 1
+  end
+  return array_rooms
 end
